@@ -15,4 +15,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'curl -H https://api.github.com/user/repos'
+    script: 'curl https://api.github.com/user/repos'
